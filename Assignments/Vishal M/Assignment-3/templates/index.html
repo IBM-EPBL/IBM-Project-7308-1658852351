@@ -1,0 +1,22 @@
+
+
+
+<!doctype html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://trialdemo001.s3.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+      <title>Assignment 3</title>
+   </head>
+   <body>
+      <a href="{{url_for('index')}}">HOME</a>
+      <a href="{{url_for('upload')}}">Upload</a>
+      <br><hr>
+      <h1>IBM Object Storage</h1>
+      {% for row in files %}
+         <div>
+            <h3>Filename : {{row}} </h3>
+            <img src="https://trialdemo001.s3.jp-tok.cloud-object-storage.appdomain.cloud/{{row}}" width="150px"></td>
+         </div>
+      {% endfor %}
+   </body>
+</html>
