@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head><title>forgot password form page...</title></head>
+    <body>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for i in messages %}
+                    <h2>{{i}}</h2>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <form method="post" style="text-align:center;">
+            <h1>Fill the below details</h1>
+            <label for="email">Email :</label>
+            <input type="email" name = "email" required><br><br>
+            <label for="uname">UserName :</label>
+            <input type="text" name = "username" required><br><br>
+            <label for="password1">Password :</label>
+            <input type="password" name="password1" required><br><br>
+            <label for="password2">Confirm Password :</label>
+            <input type="password" name="password2" required><br><br>
+            <input type="submit" value = "update password">  <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
