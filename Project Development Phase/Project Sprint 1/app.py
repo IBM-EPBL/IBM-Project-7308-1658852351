@@ -45,8 +45,7 @@ def home():
 def user_login():
     if request.method=="GET":
         return render_template('login.html')
-         
-
+        
 @app.route('/signup',methods=['GET','POST'])
 def user_signup():
     if request.method=="GET":
@@ -61,7 +60,6 @@ def user_signup():
 
         #Flagging for alert event
         acc_flag=0
-        create_flag=0
 
         #Condition for empty form
 
