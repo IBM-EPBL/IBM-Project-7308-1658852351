@@ -1,0 +1,24 @@
+.quote{
+    padding: 5%;
+    text-align: center;
+}
+.warning, .success{
+    border: 1px salmon;
+    background-color: bisque;
+    text-align: center;
+    padding: 2% 0;
+}
+.warn-img, .success-img{
+    width: 5%;
+}
+.warn-p, .success-p{
+    color:red; 
+    display: inline;
+}
+.success{
+    border: 1px lightgreen;
+    background-color: lightgreen;
+}
+.success-p{
+    color: darkgreen;
+}
