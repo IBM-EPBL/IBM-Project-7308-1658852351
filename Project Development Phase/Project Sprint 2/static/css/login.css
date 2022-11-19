@@ -1,0 +1,61 @@
+.navbar{
+    background-color: #0E5E6F;
+    padding: 1% 15%;
+}
+.navbar-text{
+    font-size: 1.2rem;
+}
+/* form container */
+.container{
+    margin: auto;
+    padding: 4% 2% 4% 0;
+}
+
+/* login */
+
+.login-card{
+    padding: 3%;
+}
+.login-img{
+    margin-top: 10%;
+    width: 100%;
+}
+.heading{
+    margin-bottom: 10%;
+}
+.fields{
+    margin-bottom: 7%;
+}
+.forgot{
+    
+    color:black;
+}
+
+.img-box{
+    padding: 5% 3% 3% 0;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body{
+    padding: 10%;
+}
+
+#footer{
+    background-color: #D6E4E5;
+}
+.warning{
+    margin-bottom: 5%;
+    border: 1px salmon;
+    background-color: bisque;
+    text-align: center;
+    padding: 2% 0;
+}
+.warn-img{
+    width: 5%;
+}
+.warn-p{
+    color:red; 
+    display: inline;
+}
